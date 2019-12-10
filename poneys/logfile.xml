@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="7" assertions="9" errors="0" failures="0" skipped="0" time="0.004623">
+    <testsuite name="PoneyTest" tests="6" assertions="8" errors="0" failures="0" skipped="0" time="0.004591">
+      <testsuite name="PoneysTest" file="/home/etudiant2/insa/poneys/tests/PoneysTest.php" tests="6" assertions="8" errors="0" failures="0" skipped="0" time="0.004591">
+        <testsuite name="PoneysTest::testRemovePoneyFromField" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.001228">
+          <testcase name="testRemovePoneyFromField with data set #0" class="PoneysTest" classname="PoneysTest" file="/home/etudiant2/insa/poneys/tests/PoneysTest.php" line="33" assertions="1" time="0.001189">
+            <system-out>ouééééééé terminated</system-out>
+          </testcase>
+          <testcase name="testRemovePoneyFromField with data set #1" class="PoneysTest" classname="PoneysTest" file="/home/etudiant2/insa/poneys/tests/PoneysTest.php" line="33" assertions="1" time="0.000039">
+            <system-out>ouééééééé terminated</system-out>
+          </testcase>
+        </testsuite>
+        <testcase name="testException" class="PoneysTest" classname="PoneysTest" file="/home/etudiant2/insa/poneys/tests/PoneysTest.php" line="46" assertions="1" time="0.000222">
+          <system-out>ouééééééé terminated</system-out>
+        </testcase>
+        <testcase name="testgetNames" class="PoneysTest" classname="PoneysTest" file="/home/etudiant2/insa/poneys/tests/PoneysTest.php" line="55" assertions="2" time="0.003007">
+          <system-out>ouééééééé terminated</system-out>
+        </testcase>
+        <testcase name="testAddPoneyToField" class="PoneysTest" classname="PoneysTest" file="/home/etudiant2/insa/poneys/tests/PoneysTest.php" line="66" assertions="1" time="0.000034">
+          <system-out>ouééééééé terminated</system-out>
+        </testcase>
+        <testcase name="testhaveSpace" class="PoneysTest" classname="PoneysTest" file="/home/etudiant2/insa/poneys/tests/PoneysTest.php" line="78" assertions="2" time="0.000101">
+          <system-out>ouééééééé terminated</system-out>
+        </testcase>
+      </testsuite>
+    </testsuite>
+    <testsuite name="test" file="/home/etudiant2/insa/poneys/tests/test.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.000032">
+      <testsuite name="Test" file="/home/etudiant2/insa/poneys/tests/test.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.000032">
+        <testcase name="testTrue" class="Test" classname="Test" file="/home/etudiant2/insa/poneys/tests/test.php" line="5" assertions="1" time="0.000032"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

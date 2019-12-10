@@ -1,0 +1,27 @@
+<phpunit
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/6.3/phpunit.xsd"
+>
+
+<php>
+  <const name="qtPoney" value="8"/>
+  <const name="taillechamps" value="15"/>
+</php>
+
+<testsuites>
+  <testsuite name="PoneyTest">
+    <directory>tests/</directory>
+    <file>tests/PoneysTest.php</file>
+  </testsuite>
+
+  <testsuite name="test">
+    <directory>tests/</directory>
+    <file>tests/test.php</file>
+  </testsuite>
+</testsuites>
+
+<logging>
+  <log type="junit" target="logfile.xml" logIncompleteSkipped="false"/>
+</logging>
+
+</phpunit>

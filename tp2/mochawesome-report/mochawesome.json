@@ -1,0 +1,468 @@
+{
+  "stats": {
+    "suites": 12,
+    "tests": 9,
+    "passes": 9,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-12-10T13:46:30.709Z",
+    "end": "2019-12-10T13:46:30.716Z",
+    "duration": 7,
+    "testsRegistered": 9,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7537be6f-a41d-48ca-83b3-33e83174778d",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0cabcaf4-7ad1-4a0f-9409-fe25e1c974c9",
+          "title": "Array",
+          "fullFile": "/home/etudiant2/insa/tp2/test/test.js",
+          "file": "/test/test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "94d1cc2a-da23-4c78-b2ec-e4e49cccd75d",
+              "title": "#indexOf()",
+              "fullFile": "/home/etudiant2/insa/tp2/test/test.js",
+              "file": "/test/test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should return -1 when the value is not present",
+                  "fullTitle": "Array #indexOf() should return -1 when the value is not present",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert.equal([1, 2, 3].indexOf(4), -1);",
+                  "err": {},
+                  "uuid": "734ac466-a0cb-4700-83d9-17a9a18a396b",
+                  "parentUUID": "94d1cc2a-da23-4c78-b2ec-e4e49cccd75d",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "734ac466-a0cb-4700-83d9-17a9a18a396b"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "c26274c9-4bdd-424c-bb8f-6e08da631d0a",
+          "title": "test even",
+          "fullFile": "/home/etudiant2/insa/tp2/test/test.js",
+          "file": "/test/test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "10047bbb-66d5-4a4b-a878-3672e742cc9f",
+              "title": "test true",
+              "fullFile": "/home/etudiant2/insa/tp2/test/test.js",
+              "file": "/test/test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "true if even",
+                  "fullTitle": "test even test true true if even",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "chai.isOk(even(2));",
+                  "err": {},
+                  "uuid": "a665911f-a5cc-4d4f-b73a-d8983386bca1",
+                  "parentUUID": "10047bbb-66d5-4a4b-a878-3672e742cc9f",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "a665911f-a5cc-4d4f-b73a-d8983386bca1"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "1dd93a21-bd09-47c7-9de3-a33c34ec0ed9",
+              "title": "test false",
+              "fullFile": "/home/etudiant2/insa/tp2/test/test.js",
+              "file": "/test/test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "false if odd",
+                  "fullTitle": "test even test false false if odd",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "chai.isNotOk(even(3));",
+                  "err": {},
+                  "uuid": "f088f1b0-9924-43c3-a99b-1d3ec4535a8b",
+                  "parentUUID": "1dd93a21-bd09-47c7-9de3-a33c34ec0ed9",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "f088f1b0-9924-43c3-a99b-1d3ec4535a8b"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "67865798-c481-4347-8a1e-3c3c8c4de3ca",
+              "title": "test error",
+              "fullFile": "/home/etudiant2/insa/tp2/test/test.js",
+              "file": "/test/test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "errot if not int",
+                  "fullTitle": "test even test error errot if not int",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "chai.ifError(even(\"coucou\"));",
+                  "err": {},
+                  "uuid": "8a4bc13d-76d4-44aa-82e0-167ee0efa8b4",
+                  "parentUUID": "67865798-c481-4347-8a1e-3c3c8c4de3ca",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "8a4bc13d-76d4-44aa-82e0-167ee0efa8b4"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "dcf05e1c-f166-4733-9e2c-4de15dd78335",
+              "title": "test too much var",
+              "fullFile": "/home/etudiant2/insa/tp2/test/test.js",
+              "file": "/test/test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "errot too much var",
+                  "fullTitle": "test even test too much var errot too much var",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "chai.ifError(even(3,2));",
+                  "err": {},
+                  "uuid": "10911e62-be49-4f4f-b7bf-65eafe172ba9",
+                  "parentUUID": "dcf05e1c-f166-4733-9e2c-4de15dd78335",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "10911e62-be49-4f4f-b7bf-65eafe172ba9"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "e70f5ba2-0946-465a-acc3-32b4aa957b14",
+              "title": "test float",
+              "fullFile": "/home/etudiant2/insa/tp2/test/test.js",
+              "file": "/test/test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "false if float",
+                  "fullTitle": "test even test float false if float",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "chai.ifError(even(3.2));",
+                  "err": {},
+                  "uuid": "9fe57a59-144d-4b8c-8613-ed6ce01375fa",
+                  "parentUUID": "e70f5ba2-0946-465a-acc3-32b4aa957b14",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "9fe57a59-144d-4b8c-8613-ed6ce01375fa"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "1fd00a55-e4ab-49a9-be0e-c21dd7f7d0de",
+              "title": "test even neg",
+              "fullFile": "/home/etudiant2/insa/tp2/test/test.js",
+              "file": "/test/test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "true if even neg",
+                  "fullTitle": "test even test even neg true if even neg",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "chai.isOk(even(-2));",
+                  "err": {},
+                  "uuid": "5fdc476b-ee87-46a7-b7ff-d3e08730b350",
+                  "parentUUID": "1fd00a55-e4ab-49a9-be0e-c21dd7f7d0de",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "5fdc476b-ee87-46a7-b7ff-d3e08730b350"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "a4b88ec9-3a43-4770-bc43-58b1a9b33ba8",
+          "title": "test string",
+          "fullFile": "/home/etudiant2/insa/tp2/test/test.js",
+          "file": "/test/test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "b5a322e8-762e-4ae3-82a6-cae59eb9189b",
+              "title": "test egal",
+              "fullFile": "/home/etudiant2/insa/tp2/test/test.js",
+              "file": "/test/test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "works",
+                  "fullTitle": "test string test egal works",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "chai.equal(string('toi'),'Bonjour, toi');",
+                  "err": {},
+                  "uuid": "cf8d8c22-02b4-4d4a-bee9-91049553628f",
+                  "parentUUID": "b5a322e8-762e-4ae3-82a6-cae59eb9189b",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "cf8d8c22-02b4-4d4a-bee9-91049553628f"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "1954c73b-1111-4581-aed2-b19b17fced9b",
+              "title": "test not egal",
+              "fullFile": "/home/etudiant2/insa/tp2/test/test.js",
+              "file": "/test/test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "doesn't works",
+                  "fullTitle": "test string test not egal doesn't works",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "chai.notEqual(string('moi'),'Bonjour, toi');",
+                  "err": {},
+                  "uuid": "46d155f4-44f5-490f-91bd-258e9965c094",
+                  "parentUUID": "1954c73b-1111-4581-aed2-b19b17fced9b",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "46d155f4-44f5-490f-91bd-258e9965c094"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": null,
+      "version": "4.0.1"
+    }
+  }
+}
