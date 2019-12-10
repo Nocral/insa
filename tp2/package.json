@@ -6,5 +6,8 @@
   "repository": "https://github.com/erwandf/insa",
   "author": "EDF",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "mocha": "^6.2.2"
+  }
 }
